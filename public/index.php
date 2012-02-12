@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/library/base.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -67,6 +68,42 @@
                         </p>
                     </div>
                 </div>
+                
+                <div class="row">
+                    <div class="span6 offset3">
+                        <h2>The Second Rule of Ninja Developer Club</h2>
+                        <p>
+                            Real ninjas build new functionality by removing code only.
+                            <small>
+                                &#8212; <a href="https://twitter.com/#!/omnicolor/status/167644363269222400">@omnicolor</a>
+                            </small>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="span6 offset3">
+                        <h2>The Third Rule of Ninja Developer Club</h2>
+                        <p>
+                            If you write bad code, you must commit seppuku.
+                            <small>
+                                &#8212; <a href="https://twitter.com/#!/weierophinney/status/167629721440493568">@auroraeosrose via @weierophinney</a>
+                            </small>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="span6 offset3">
+                        <h2>The Fourth Rule of Ninja Developer Club</h2>
+                        <p>
+                            The ninja always silently assassinates code. Take no credit for your kills.
+                            <small>
+                                &#8212; <a href="https://twitter.com/#!/sprunka/status/167632631775764480">@sprunka</a>
+                            </small>
+                        </p>
+                    </div>
+                </div>
             </section>
 
             <section id="tweets">
@@ -109,26 +146,28 @@
                 $(".tweet").tweet({
                     avatar_size: 45,
                     count: 10,
+                    refresh_interval: 60,
                     query: "\"PHP Ninja\" OR \"Ninja Developer Club\" OR @ninjadevclub OR ninjadevclub OR from:ninjadevclub OR to:ninjadevclub",
                     loading_text: "searching twitter..."
                 });
             });
 
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-1611748-6']);
-            _gaq.push(['_trackPageview']);
-            //
-            (function() {
-                var ga = document.createElement('script'); ga.type =
-                    'text/javascript'; ga.async = true;
-                ga.src = ('https:' == document.location.protocol ?
-                    'https://ssl' : 'http://www') +
-                    '.google-analytics.com/ga.js';
-                var s =
-                    document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(ga, s);
-            })();
-
+<?php if (APPLICATION_ENV == 'production'): ?>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-1611748-6']);
+        _gaq.push(['_trackPageview']);
+        //
+        (function() {
+            var ga = document.createElement('script'); ga.type =
+                'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ?
+                'https://ssl' : 'http://www') +
+                '.google-analytics.com/ga.js';
+            var s =
+                document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+<?php endif; ?>
         </script>
     </body>
 
