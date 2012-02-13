@@ -104,6 +104,18 @@
                         </p>
                     </div>
                 </div>
+                
+                <div class="row">
+                    <div class="span6 offset3">
+                        <h2>The Fifth Rule of Ninja Developer Club</h2>
+                        <p>
+                            The ninja dev rewrites the repository to leave no trace of their commits.
+                            <small>
+                                &#8212; <a href="https://twitter.com/#!/weierophinney/status/168840642263400449">@weierophinney</a>
+                            </small>
+                        </p>
+                    </div>
+                </div>
             </section>
 
             <section id="tweets">
