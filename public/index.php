@@ -135,15 +135,14 @@
                         Ninja Developer Club by 
                         <a href="http://about.me/jeremykendall">Jeremy Kendall</a> 
                         (hat tip <a href="http://twitter.com/grmpyprogrammer">Chris Hartjes</a>) 
-                        is licensed under a 
-                        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
-                            Creative Commons Attribution-ShareAlike 3.0 Unported License
-                        </a>.
                     </small>
                 </p>
                 <p>
                     <small>
-                        Source available on <a href="https://github.com/jeremykendall/ninjadeveloperclub">github.com</a>
+                        Ninja Developer Club source code is licensed under a 
+                        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+                            Creative Commons Attribution-ShareAlike 3.0 Unported License
+                        </a> and is available on <a href="https://github.com/jeremykendall/ninjadeveloperclub">github.com</a>
                     </small>
                 </p>
             </footer>
