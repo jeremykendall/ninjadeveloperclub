@@ -132,9 +132,10 @@
             <footer>
                 <p>
                     <small>
-                        Ninja Developer Club by 
+                        Ninja Developer Club is brought to you by  
                         <a href="http://about.me/jeremykendall">Jeremy Kendall</a> 
-                        (hat tip <a href="http://twitter.com/grmpyprogrammer">Chris Hartjes</a>) 
+                        and was inspired by Chris Hartjes's 
+                        <a href="https://twitter.com/grmpyprogrammer/statuses/166915258643005441">First Rule of Ninja Developer Club</a>.
                     </small>
                 </p>
                 <p>
@@ -142,7 +143,7 @@
                         Ninja Developer Club source code is licensed under a 
                         <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
                             Creative Commons Attribution-ShareAlike 3.0 Unported License
-                        </a> and is available on <a href="https://github.com/jeremykendall/ninjadeveloperclub">github.com</a>
+                        </a> and is available on <a href="https://github.com/jeremykendall/ninjadeveloperclub">github.com</a>.
                     </small>
                 </p>
             </footer>
