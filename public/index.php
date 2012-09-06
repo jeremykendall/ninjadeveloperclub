@@ -134,7 +134,7 @@
                     <small>
                         Ninja Developer Club is brought to you by  
                         <a href="http://about.me/jeremykendall">Jeremy Kendall</a> 
-                        and was inspired by Chris Hartjes's 
+                        and was inspired by Chris Hartjes' 
                         <a href="https://twitter.com/grmpyprogrammer/statuses/166915258643005441">First Rule of Ninja Developer Club</a>.
                     </small>
                 </p>
