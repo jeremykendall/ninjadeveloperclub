@@ -58,7 +58,7 @@
             <section id="rules">
                 <div class="row">
                     <div class="span6 offset3">
-                        <h2>The First Rule of Ninja Developer Club</h2>
+                        <h3>The First Rule of Ninja Developer Club</h3>
                         <p>
                             Don't call yourself <em>ninja</em> when 
                             <em>douchebag</em> is a better label.
@@ -66,48 +66,32 @@
                                 &#8212; <a href="https://twitter.com/#!/grmpyprogrammer/statuses/166915258643005441">@grmpyprogrammer</a>
                             </small>
                         </p>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="span6 offset3">
-                        <h2>The Second Rule of Ninja Developer Club</h2>
+
+                        <h3>The Second Rule of Ninja Developer Club</h3>
                         <p>
                             Real ninjas build new functionality by removing code only.
                             <small>
                                 &#8212; <a href="https://twitter.com/#!/omnicolor/status/167644363269222400">@omnicolor</a>
                             </small>
                         </p>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="span6 offset3">
-                        <h2>The Third Rule of Ninja Developer Club</h2>
+
+                        <h3>The Third Rule of Ninja Developer Club</h3>
                         <p>
                             If you write bad code, you must commit seppuku.
                             <small>
                                 &#8212; <a href="https://twitter.com/#!/weierophinney/status/167629721440493568">@auroraeosrose via @weierophinney</a>
                             </small>
                         </p>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="span6 offset3">
-                        <h2>The Fourth Rule of Ninja Developer Club</h2>
+
+                        <h3>The Fourth Rule of Ninja Developer Club</h3>
                         <p>
                             The ninja always silently assassinates code. Take no credit for your kills.
                             <small>
                                 &#8212; <a href="https://twitter.com/#!/sprunka/status/167632631775764480">@sprunka</a>
                             </small>
                         </p>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="span6 offset3">
-                        <h2>The Fifth Rule of Ninja Developer Club</h2>
+
+                        <h3>The Fifth Rule of Ninja Developer Club</h3>
                         <p>
                             The ninja dev rewrites the repository to leave no trace of their commits.
                             <small>
