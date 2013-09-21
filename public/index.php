@@ -104,10 +104,10 @@
 
             <section id="tweets">
                 <div class="row">
-                    <div class="span6 offset3 page-header">
-                        <!-- I hate using empty divs for layout, but I suck at design, too -->
-                    </div>
-                    <div class="tweet span6 offset3"></div>
+                    <h3>Ninja Tweets</h3>
+                    <p>
+                        <a class="twitter-timeline" href="https://twitter.com/search?q=%22PHP+Ninja%22+OR+%22Ninja+Developer+Club%22+OR+%40ninjadevclub+OR+ninjadevclub+OR+from%3Aninjadevclub+OR+to%3Aninjadevclub" data-widget-id="381145085150113792">Tweets about ""PHP Ninja" OR "Ninja Developer Club" OR @ninjadevclub OR ninjadevclub OR from:ninjadevclub OR to:ninjadevclub"</a>
+                    </p>
                 </div>
             </section>
 
@@ -124,10 +124,8 @@
                 </p>
                 <p>
                     <small>
-                        Ninja Developer Club source code is licensed under a 
-                        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
-                            Creative Commons Attribution-ShareAlike 3.0 Unported License
-                        </a> and is available on <a href="https://github.com/jeremykendall/ninjadeveloperclub">github.com</a>.
+                        Ninja Developer Club source code is <a href="https://github.com/jeremykendall/ninjadeveloperclub/blob/master/LICENSE.md">MIT</a> licensed
+                        and is available on <a href="https://github.com/jeremykendall/ninjadeveloperclub">GitHub</a>.
                     </small>
                 </p>
             </footer>
@@ -135,7 +133,7 @@
         </div> <!-- /container -->
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <script src="../assets/tweet/jquery.tweet.js"></script>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         <script type="text/javascript">
             
             jQuery(function($){
